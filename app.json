@@ -1,0 +1,47 @@
+{
+  "name": "HarshithFileLink",
+  "description": "Telegram Bot to Share any Telegram Media @MutyalaHarshith.",
+  "keywords": [
+    "telegram",
+    "best",
+    "share",
+    "file"
+  ],
+  "success_url": "https://github.com/Develovepers/FileLink",
+  "website": "https://t.me/MutyalaHarshith",
+  "repository": "https://github.com/Develovepers/FileLink",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string on Telegram @botFather.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from only on https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from only on https://my.telegram.org",
+      "value": ""
+    },
+    "TRACK_CHANNEL": {
+      "description": "Create new private/public channel and get it's id, -100×××××",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Get this value on Telegram @MHBest_BoT command /info.",
+      "value": "all"
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-20",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
