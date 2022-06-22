@@ -13,9 +13,9 @@ OWNER_ID = os.environ['OWNER_ID']
 START_BUTTONS=[
     [
         InlineKeyboardButton('Channel', url='https://t.me/MutyalaHarshith'),
-        InlineKeyboardButton('Project Channel', url='https://t.me/Telugu_robots'),
+        InlineKeyboardButton('Support Group', url='https://t.me/MHGcHaT'),
     ],
-    [InlineKeyboardButton('Creator', url="https://t.me/MutyalaHarshith")],
+    [InlineKeyboardButton('Creator', url="https://t.me/Develoveper")],
 ]
 
 # Running bot
