@@ -1,5 +1,5 @@
 {
-  "name": "HarshithFileLink",
+  "name": "Harshith File2Link",
   "description": "Telegram Bot to Share any Telegram Media @MutyalaHarshith.",
   "keywords": [
     "telegram",
@@ -7,29 +7,29 @@
     "share",
     "file"
   ],
-  "success_url": "https://github.com/Develovepers/FileLink",
+  "success_url": "https://github.com/MutyalaHarshith/file2LinK",
   "website": "https://t.me/MutyalaHarshith",
-  "repository": "https://github.com/Develovepers/FileLink",
+  "repository": "https://github.com/MutyalaHarshith/file2LinK",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string on Telegram @botFather.",
-      "value": ""
+      "value": "5272264676:AAGLAEBV3bY3RAZEorTngxVLYabM8wNSEU0"
     },
     "APP_ID": {
       "description": "Get this value from only on https://my.telegram.org",
-      "value": ""
+      "value": "7175298"
     },
     "API_HASH": {
       "description": "Get this value from only on https://my.telegram.org",
-      "value": ""
+      "value": "ad1791ee9e640932900fcbf878bf0cae"
     },
     "TRACK_CHANNEL": {
       "description": "Create new private/public channel and get it's id, -100×××××",
-      "value": ""
+      "value": "-1001518223473"
     },
     "OWNER_ID": {
       "description": "Get this value on Telegram @MHBest_BoT command /info.",
-      "value": "all"
+      "value": "1898887060"
     }
   },
   "addons": [
